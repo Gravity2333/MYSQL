@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="javabook" time="201811201517">
+	<entities>
+		<data-source id="mysql5-1672ff9ddc6-32a688f46d742b08">
+			<entity id="1" name="Account" fq-name="javabook.Account">
+				<path name="javabook"/>
+			</entity>
+			<entity id="2" name="Address" fq-name="javabook.Address">
+				<path name="javabook"/>
+			</entity>
+			<entity id="3" name="College" fq-name="javabook.College">
+				<path name="javabook"/>
+			</entity>
+			<entity id="4" name="Country" fq-name="javabook.Country">
+				<path name="javabook"/>
+			</entity>
+			<entity id="5" name="Course" fq-name="javabook.Course">
+				<path name="javabook"/>
+			</entity>
+			<entity id="6" name="Department" fq-name="javabook.Department">
+				<path name="javabook"/>
+			</entity>
+			<entity id="7" name="Enrollment" fq-name="javabook.Enrollment">
+				<path name="javabook"/>
+			</entity>
+			<entity id="8" name="Faculty" fq-name="javabook.Faculty">
+				<path name="javabook"/>
+			</entity>
+			<entity id="9" name="Person" fq-name="javabook.Person">
+				<path name="javabook"/>
+			</entity>
+			<entity id="10" name="Quiz" fq-name="javabook.Quiz">
+				<path name="javabook"/>
+			</entity>
+			<entity id="11" name="Scores" fq-name="javabook.Scores">
+				<path name="javabook"/>
+			</entity>
+			<entity id="12" name="Staff" fq-name="javabook.Staff">
+				<path name="javabook"/>
+			</entity>
+			<entity id="13" name="StateCapital" fq-name="javabook.StateCapital">
+				<path name="javabook"/>
+			</entity>
+			<entity id="14" name="Student" fq-name="javabook.Student">
+				<path name="javabook"/>
+			</entity>
+			<entity id="15" name="Student1" fq-name="javabook.Student1">
+				<path name="javabook"/>
+			</entity>
+			<entity id="16" name="Student2" fq-name="javabook.Student2">
+				<path name="javabook"/>
+			</entity>
+			<entity id="17" name="Subject" fq-name="javabook.Subject">
+				<path name="javabook"/>
+			</entity>
+			<entity id="18" name="TaughtBy" fq-name="javabook.TaughtBy">
+				<path name="javabook"/>
+			</entity>
+			<entity id="19" name="Temp" fq-name="javabook.Temp">
+				<path name="javabook"/>
+			</entity>
+			<entity id="20" name="csci1301" fq-name="javabook.csci1301">
+				<path name="javabook"/>
+			</entity>
+			<entity id="21" name="csci1302" fq-name="javabook.csci1302">
+				<path name="javabook"/>
+			</entity>
+			<entity id="22" name="csci4990" fq-name="javabook.csci4990">
+				<path name="javabook"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fkDeptId" fq-name="javabook.Student.fkDeptId" type="fk" pk-ref="6" fk-ref="14"/>
+		<relation name="fkDeanId" fq-name="javabook.College.fkDeanId" type="fk" pk-ref="8" fk-ref="3"/>
+		<relation name="fkSubjectId" fq-name="javabook.Course.fkSubjectId" type="fk" pk-ref="17" fk-ref="5"/>
+	</relations>
+	<notes/>
+</diagram>
